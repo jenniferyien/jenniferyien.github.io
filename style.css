@@ -37,7 +37,7 @@ li {
 div.intro{
   float: left;
   /*background-color: #6FA7A7;*/
-  background-image: url("/images/nature-blur.jpg");
+  background-image: url("/nature-blur.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   height: 475px;
