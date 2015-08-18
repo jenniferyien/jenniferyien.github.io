@@ -68,8 +68,8 @@ img {
   float: right;
   width: 250px;
   margin: 0 30px 0 30px;
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
+  /*-webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);*/
 }
 
 div.mecontent {
