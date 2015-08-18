@@ -1,0 +1,80 @@
+/*index page*/
+body {
+  /*background-color: #2B2219;*/
+  background-color: #6FA7A7;
+}
+div.header {
+  background-color: white;
+  opacity: 0.8;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+div.name{
+  float: right;
+  padding: 0px 10px 0 10px ;
+  color: #2B2219;
+  /*#78B9B9*/
+}
+
+div.nav{
+  float: right;
+  /*color: #E6E6AC;*/
+  color: #2B2219;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px 0 10px;
+  float: right;
+}
+
+div.intro{
+  float: left;
+  /*background-color: #6FA7A7;*/
+  background-image: url("image/nature-blur.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  height: 475px;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+div.introcontent{
+  vertical-align: middle;
+  line-height: normal;
+  padding: 150px;
+}
+
+/*About.html page*/
+
+div.aboutme{
+  float: left;
+  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  height: 475px;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+img {
+  float: right;
+  width: 250px;
+  margin: 0 30px 0 30px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
+div.mecontent {
+  padding: 0 0 0 30px;
+}
+h2.metitle {
+  text-align: center;
+}
