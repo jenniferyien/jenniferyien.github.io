@@ -7,8 +7,8 @@ a {
 body {
   /*background-color: #2B2219;*/
   background-color: #6FA7A7;
-  margin: auto;
-  max-width: none;
+  margin: 0;
+  max-width: 100%;
 }
 div.header {
   background-color: white;
@@ -17,6 +17,7 @@ div.header {
   display: inline-block;
   width: 100%;
   margin: 0;
+  /*clear:both;*/
   display: flex;
   justify-content: space-between;
 }
@@ -48,11 +49,13 @@ div.intro{
   background-image: url("images/nature-blur.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 475px;
   width: 100%;
   padding: 10px;
   margin: auto;
   text-align: center;
+  clear: both;
 }
 div.introcontent{
   vertical-align: middle;
@@ -76,59 +79,88 @@ div.experience{
 
 
 /*About.html page*/
+div.facts {
+  float: left;
+  width: 49.2%;
+  height: 200px;
+  padding: 0 4%;
+  border: solid black;
+}
+div.space {
+  float: left;
+  width: 99%;
+  height: 7%;
+  border: solid black;
+  margin: auto;
+}
 
 div.meinfo {
   float: left;
-  max-width: 100%;
-  padding: 2%;
+  width: 95%;
+  height: 250px;
+  padding: 0 2%;
   display: inline-block;
   position: relative;
+  border: solid black;
 }
+
+div.profileimage {
+  background-image: url('images/mypicture.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 120px;
+  height: 200px;
+  border-radius: 100%;
+  /*float: right;*/
+  /*margin-bottom: 50px;*/
+  /*width: 20%;*/
+}
+
+
+
 div.infosection p{
   /*float: left;*/
-  /*width: 50%;*/
+  width: 50%;
   /*text-align: center;*/
   /*height: 100%;*/
   padding-left: 120px;
 }
 
 div.infosection.fivews {
-  float: left;
-  width: 50%;
-  margin-left: 50px;
+  /*float: left;*/
+  /*width: 450px;*/
+  /*margin-left: 50px;*/
   position: relative;
+  border: solid black;
 }
 
 hr {
   border: black solid 3px;
 }
 
-div.space1 {
+/*div.space1 {
   height: 33%;
   width: 100%;
   float: left;
   padding: 15px;
-}
-div.space2 {
+}*/
+/*div.space2 {
   height: 6%;
   width: 100%;
   float: left;
   padding: 0;
-}
+}*/
 
-img {
-  /*float: right;*/
-  width: 70%;
-  border-radius: 150px;
-  margin: 0 15%;
-}
+
 
 div.picture {
   float: right;
-  position: relative;
-  max-width: 35%;
-  margin-right: 70px;
-  height: 270px;
+  /*position: relative;*/
+  /*margin: 0;*/
+  /*width: 270px;*/
+  /*margin-left: 200px;*/
+  /*height: 266px;*/
+  border: solid black;
 }
 
 div.aboutme{
