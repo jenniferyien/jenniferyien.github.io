@@ -1,7 +1,14 @@
+/*All Pages*/
+a {
+  text-decoration: none;
+}
+
 /*index page*/
 body {
   /*background-color: #2B2219;*/
   background-color: #6FA7A7;
+  margin: auto;
+  max-width: none;
 }
 div.header {
   background-color: white;
@@ -9,15 +16,16 @@ div.header {
   padding: 0 10px 0 10px;
   display: inline-block;
   width: 100%;
-  height: 100%;
-  margin: auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
+
 div.name{
-  float: right;
+  float: left;
   padding: 0px 10px 0 10px ;
   color: #2B2219;
+  font-size: 14px;
   /*#78B9B9*/
 }
 
@@ -37,7 +45,7 @@ li {
 div.intro{
   float: left;
   /*background-color: #6FA7A7;*/
-  background-image: url("/nature-blur.jpg");
+  background-image: url("public/nature-blur.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   height: 475px;
@@ -49,14 +57,82 @@ div.intro{
 div.introcontent{
   vertical-align: middle;
   line-height: normal;
-  padding: 150px;
+  height: 29%;
+  padding: 1%;
+  /*padding: 150px;*/
 }
+
+div.experience{
+  width: 100%;
+  padding: 10px;
+  height: 400px;
+  background-color: white;
+  background-size: cover;
+  float: left;
+  margin: auto;
+}
+
+
+
 
 /*About.html page*/
 
+div.meinfo {
+  float: left;
+  max-width: 100%;
+  padding: 2%;
+  display: inline-block;
+  position: relative;
+}
+div.infosection p{
+  /*float: left;*/
+  /*width: 50%;*/
+  /*text-align: center;*/
+  /*height: 100%;*/
+  padding-left: 120px;
+}
+
+div.infosection.fivews {
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+hr {
+  border: black solid 3px;
+}
+
+div.space1 {
+  height: 33%;
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+div.space2 {
+  height: 6%;
+  width: 100%;
+  float: left;
+  padding: 0;
+}
+
+img {
+  /*float: right;*/
+  width: 70%;
+  border-radius: 150px;
+  margin: 0 15%;
+}
+
+div.picture {
+  float: right;
+  position: relative;
+  max-width: 35%;
+  margin-right: 70px;
+  height: 270px;
+}
+
 div.aboutme{
   float: left;
-  background-color: #fff;
+  background-color: #ffffff;
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   height: 475px;
@@ -64,15 +140,9 @@ div.aboutme{
   padding: 10px;
   margin: auto;
 }
-img {
-  float: right;
-  width: 250px;
-  margin: 0 30px 0 30px;
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-}
 
 div.mecontent {
+  clear: both;
   padding: 0 0 0 30px;
 }
 h2.metitle {
