@@ -96,6 +96,7 @@ div.infosection.fivews {
   float: left;
   width: 50%;
   margin-left: 50px;
+  position: relative;
 }
 
 hr {
