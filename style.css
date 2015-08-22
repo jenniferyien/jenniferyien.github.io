@@ -6,7 +6,6 @@ a {
 
 /*index page*/
 body {
-  /*background-color: #2B2219;*/
   background-color: #6FA7A7;
   margin: 0;
   max-width: 100%;
@@ -17,8 +16,6 @@ header {
   padding: 0 10px 0 10px;
   display: inline-block;
   width: 100%;
-  /*margin: 0;*/
-  /*clear:both;*/
   display: flex;
   justify-content: space-between;
 }
@@ -33,7 +30,6 @@ div.name{
 
 div.nav{
   float: right;
-  /*color: #E6E6AC;*/
   color: #2B2219;
 }
 
@@ -50,7 +46,6 @@ main {
 }
 div.intro{
   float: left;
-  /*background-color: #6FA7A7;*/
   background-image: url("images/nature-blur.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
@@ -64,7 +59,6 @@ div.introcontent{
   line-height: normal;
   min-height: 150px;
   padding: 1%;
-  /*border: 1px solid black;*/
 }
 
 div.experience{
@@ -87,7 +81,6 @@ div.facts {
   padding: 0 4%;
   text-align: left;
   margin: 0 3%;
-  /*border: 1px solid black;*/
 }
 
 p{
@@ -117,16 +110,15 @@ div.meinfo {
 }
 
 div.profileimage {
-  background-image: url('images/mypicture.jpg');
+  background-image: url('images/mypicture.png');
   background-position: center;
-  background-size: cover;
-  width: 120px;
-  height: 200px;
-  border-radius: 100%;
-  margin: 1% 3%;
-  /*float: right;*/
-  /*margin-bottom: 50px;*/
-  /*width: 20%;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  min-height: 225px;
+  margin: 0 5%;
+  padding: 0;
+  /*border: 1px solid black;*/
 }
 
 
