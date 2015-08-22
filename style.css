@@ -1,6 +1,7 @@
 /*All Pages*/
 a {
   text-decoration: none;
+  color: #2B2219;
 }
 
 /*index page*/
@@ -10,13 +11,13 @@ body {
   margin: 0;
   max-width: 100%;
 }
-div.header {
+header {
   background-color: white;
   opacity: 0.8;
   padding: 0 10px 0 10px;
   display: inline-block;
   width: 100%;
-  margin: 0;
+  /*margin: 0;*/
   /*clear:both;*/
   display: flex;
   justify-content: space-between;
@@ -43,26 +44,27 @@ li {
   float: right;
 }
 
+main {
+  max-width: 100%;
+  max-height: 100%;
+}
 div.intro{
   float: left;
   /*background-color: #6FA7A7;*/
   background-image: url("images/nature-blur.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 475px;
+  min-height: 475px;
   width: 100%;
   padding: 10px;
-  margin: auto;
   text-align: center;
-  clear: both;
 }
 div.introcontent{
   vertical-align: middle;
   line-height: normal;
-  height: 29%;
+  min-height: 150px;
   padding: 1%;
-  /*padding: 150px;*/
+  /*border: 1px solid black;*/
 }
 
 div.experience{
@@ -81,27 +83,37 @@ div.experience{
 /*About.html page*/
 div.facts {
   float: left;
-  width: 49.2%;
-  height: 200px;
+  width: 39.3%;
   padding: 0 4%;
-  border: solid black;
+  text-align: left;
+  margin: 0 3%;
+  /*border: 1px solid black;*/
 }
+
+p{
+  padding: 0 10%;
+}
+
+hr {
+  border: black solid 2px;
+}
+
 div.space {
   float: left;
   width: 99%;
-  height: 7%;
-  border: solid black;
+  min-height: 10px;
   margin: auto;
+  /*border: 1px solid black;*/
 }
 
 div.meinfo {
   float: left;
   width: 95%;
-  height: 250px;
+  min-height: 251px;
   padding: 0 2%;
   display: inline-block;
   position: relative;
-  border: solid black;
+  /*border: 1px solid black;*/
 }
 
 div.profileimage {
@@ -111,32 +123,20 @@ div.profileimage {
   width: 120px;
   height: 200px;
   border-radius: 100%;
+  margin: 1% 3%;
   /*float: right;*/
   /*margin-bottom: 50px;*/
   /*width: 20%;*/
 }
 
 
-
-div.infosection p{
-  /*float: left;*/
-  width: 50%;
-  /*text-align: center;*/
-  /*height: 100%;*/
-  padding-left: 120px;
-}
-
-div.infosection.fivews {
-  /*float: left;*/
-  /*width: 450px;*/
-  /*margin-left: 50px;*/
+/*div.infosection.fivews {
+  float: left;
+  width: 450px;
+  margin-left: 50px;
   position: relative;
   border: solid black;
-}
-
-hr {
-  border: black solid 3px;
-}
+}*/
 
 /*div.space1 {
   height: 33%;
@@ -153,31 +153,31 @@ hr {
 
 
 
-div.picture {
+/*div.picture {
   float: right;
-  /*position: relative;*/
-  /*margin: 0;*/
-  /*width: 270px;*/
-  /*margin-left: 200px;*/
-  /*height: 266px;*/
+  position: relative;
+  margin: 0;
+  width: 270px;
+  margin-left: 200px;
+  height: 266px;
   border: solid black;
-}
+}*/
 
 div.aboutme{
-  float: left;
+  /*float: left;*/
   background-color: #ffffff;
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
-  height: 475px;
+  min-height: 475px;
   width: 100%;
   padding: 10px;
-  margin: auto;
+  margin: 0;
 }
 
-div.mecontent {
+/*div.mecontent {
   clear: both;
   padding: 0 0 0 30px;
-}
+}*/
 h2.metitle {
   text-align: center;
 }
