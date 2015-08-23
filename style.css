@@ -20,6 +20,38 @@ header {
   justify-content: space-between;
 }
 
+footer {
+  background-color: #454a3c;
+  padding: 0 10px 10px 10px;
+  display: inline-block;
+  width: 100%;
+  color: white;
+}
+
+.linkedin{
+  background-image: url('/images/Logo-2CRev-128px-R.png');
+  background-size: cover;
+  height: 8px;
+  width: 45px;
+  margin: 0 1%;
+}
+
+.github {
+  background-image: url('/images/GitHub_Logo.png');
+  background-size: cover;
+  background-position: center;
+  height: 10px;
+  width: 40px;
+  margin: 0 1%;
+}
+
+.copyright {
+  font-size: 10px;
+  height: 10px;
+  padding: 4px 0;
+  margin: 0 1%;
+}
+
 div.name{
   float: left;
   padding: 0px 10px 0 10px ;
@@ -81,6 +113,7 @@ div.facts {
   padding: 0 4%;
   text-align: left;
   margin: 0 3%;
+  max-height: 315px;
 }
 
 p{
@@ -157,10 +190,10 @@ div.profileimage {
 
 div.aboutme{
   /*float: left;*/
-  background-color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #e4cb88;
   background-size: cover;
-  min-height: 475px;
+  min-height: 315px;
+  height: 100%;
   width: 100%;
   padding: 10px;
   margin: 0;
@@ -172,4 +205,14 @@ div.aboutme{
 }*/
 h2.metitle {
   text-align: center;
+}
+
+div.ExpSkl{
+  width: 100%;
+  padding: 10px;
+  height: 400px;
+  background-color: white;
+  background-size: cover;
+  float: left;
+  margin: auto;
 }
