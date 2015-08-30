@@ -159,54 +159,18 @@ div.profileimage {
 }
 
 
-/*div.infosection.fivews {
-  float: left;
-  width: 450px;
-  margin-left: 50px;
-  position: relative;
-  border: solid black;
-}*/
-
-/*div.space1 {
-  height: 33%;
-  width: 100%;
-  float: left;
-  padding: 15px;
-}*/
-/*div.space2 {
-  height: 6%;
-  width: 100%;
-  float: left;
-  padding: 0;
-}*/
-
-
-
-/*div.picture {
-  float: right;
-  position: relative;
-  margin: 0;
-  width: 270px;
-  margin-left: 200px;
-  height: 266px;
-  border: solid black;
-}*/
 
 div.aboutme{
-  /*float: left;*/
+  float: left;
   background-color: #e4cb88;
   background-size: cover;
-  min-height: 315px;
-  height: 100%;
+  /*min-height: 315px;*/
   width: 100%;
   padding: 10px;
   margin: 0;
+  /*border: 1px solid black;*/
 }
 
-/*div.mecontent {
-  clear: both;
-  padding: 0 0 0 30px;
-}*/
 h2.metitle {
   text-align: center;
 }
