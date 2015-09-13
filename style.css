@@ -1,31 +1,126 @@
-/*All Pages*/
-a {
-  text-decoration: none;
-  color: #2B2219;
-}
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
-/*index page*/
 body {
-  background-color: #6FA7A7;
   margin: 0;
   max-width: 100%;
-}
-header {
-  background-color: white;
-  opacity: 0.8;
-  padding: 0 10px 0 10px;
-  display: inline-block;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  color: #FEFFE0;
 }
 
-footer {
-  background-color: #454a3c;
+header {
+  background-color: #888A8E;
   padding: 0 10px 10px 10px;
-  display: inline-block;
   width: 100%;
-  color: white;
+  min-height: 50px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+.space {
+  height: 50px;
+  width: 100%;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 20px 0 10px;
+  float: right;
+}
+
+h1{
+  /*color: #fff;*/
+  margin: 0 3%;
+}
+
+h4 {
+  margin: 0;
+}
+#intro {
+  text-align: center;
+  margin: 20%;
+  font-size: 35px;
+  font-family: 'Lora';
+}
+
+#contact {
+  text-align: center;
+  padding: 12%;
+  font-size: 35px;
+  font-family: 'Lora';
+
+}
+.row {
+  /*min-height: 100%;*/
+  min-height: 475px;
+  height: auto;
+  width: 100%;
+}
+.row.intro {
+    background-color: #93C7B7;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.row.about {
+  background-color: #FEFFE0;
+  margin: 0;
+  color: #0D0D0C;
+}
+.row.skill {
+  background-color: #93C7B7;
+  margin: 0;
+}
+.row.projects{
+  background-color: #FEFFE0;
+  margin: 0;
+  color: #0D0D0C;
+}
+.row.contact {
+  background-color: #93C7B7;
+  margin: 0;
+}
+.profile {
+  width: 50%;
+  float: left;
+}
+.theSkills {
+  width: 50%;
+  float: left;
+}
+.myWork {
+  width: 25%;
+  float: left;
+  color: #fff;
+}
+.myWork.blackjack {
+  background-image: url('images/Blackjack.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  min-height: 225px;
+  margin: 0 5%;
+}
+
+.header {
+  width: 45%;
+  float: left;
+  margin: 0 2%;
+}
+#name {
+  margin: 2%;
+}
+nav ul {
+  margin: 2%;
+}
+/*index page*/
+footer {
+  background-color: #888A8E;
+  padding: 0 10px 10px 10px;
+  width: 100%;
+  color: #FEFFE0;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -56,96 +151,6 @@ footer {
   margin: 0 1%;
 }
 
-div.name{
-  float: left;
-  padding: 0px 10px 0 10px ;
-  color: #2B2219;
-  font-size: 14px;
-  /*#78B9B9*/
-}
-
-div.nav{
-  float: right;
-  color: #2B2219;
-}
-
-li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 20px 0 10px;
-  float: right;
-}
-
-main {
-  max-width: 100%;
-  max-height: 100%;
-}
-div.intro{
-  float: left;
-  background-image: url("images/nature-blur.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  min-height: 475px;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-}
-div.introcontent{
-  vertical-align: middle;
-  line-height: normal;
-  min-height: 150px;
-  padding: 1%;
-}
-
-div.experience{
-  width: 100%;
-  padding: 10px;
-  height: 400px;
-  background-color: white;
-  background-size: cover;
-  float: left;
-  margin: auto;
-}
-
-
-
-
-/*About.html page*/
-div.facts {
-  float: left;
-  width: 39.3%;
-  padding: 0 4%;
-  text-align: left;
-  margin: 0 3%;
-  max-height: 315px;
-}
-
-p{
-  padding: 0 10%;
-}
-
-hr {
-  border: black solid 2px;
-}
-
-div.space {
-  float: left;
-  width: 99%;
-  min-height: 10px;
-  margin: auto;
-  /*border: 1px solid black;*/
-}
-
-div.meinfo {
-  float: left;
-  width: 95%;
-  min-height: 251px;
-  padding: 0 2%;
-  display: inline-block;
-  position: relative;
-  /*border: 1px solid black;*/
-}
-
 div.profileimage {
   background-image: url('images/mypicture.png');
   background-position: center;
@@ -154,33 +159,5 @@ div.profileimage {
   width: 30%;
   min-height: 225px;
   margin: 0 5%;
-  padding: 0;
   /*border: 1px solid black;*/
-}
-
-
-
-div.aboutme{
-  float: left;
-  background-color: #e4cb88;
-  background-size: cover;
-  /*min-height: 315px;*/
-  width: 100%;
-  padding: 10px;
-  margin: 0;
-  /*border: 1px solid black;*/
-}
-
-h2.metitle {
-  text-align: center;
-}
-
-div.ExpSkl{
-  width: 100%;
-  padding: 10px;
-  height: 400px;
-  background-color: white;
-  background-size: cover;
-  float: left;
-  margin: auto;
 }

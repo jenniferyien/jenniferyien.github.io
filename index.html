@@ -3,91 +3,107 @@
     <head>
       <title> Jennifer Yien </title>
       <link rel = "stylesheet" href ="normalize.css">
-      <link rel = "stylesheet" href ="style.css">
+      <link rel = "stylesheet" href ="/style.css">
+      <script language="javascript" type="text/javascript" src='/jquery-2.1.4.js'></script>
+      <script language="javascript" type="text/javascript" src='/script.js'></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-      <h1> Educator, Artist, Developer </h1>
-      <h2> Believer in knowledge &dash; Explorer of unknown &dash; Builder of value </h2>
-      <h2> About Me </h2>
-      <h2> Skills </h2>
-      <ul>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> Javascript </li>
-          <li> jQuery </li>
-          <li> Ruby </li>
-      </ul>
-      <h2> Projects </h2>
-      <p> <a href = "http://jenniferyien.github.io/blackjack/" >blackjack </a></p>
-      <p> BackEnd project TBA</p>
-
-      <!-- <header>
-          <div class="name">
-              <h1>jennifer Yien</h1>
-          </div>
-          <div class= "nav">
-              <ul>
-                <li>About Me</li>
-                <li>Portfolio<li>
-              </ul>
+      <header>
+        <div class='header'>
+          <h1 id='name'>jenniferYien</h1>
+        </div>
+        <div class= 'header'>
+          <nav>
+                  <ul>
+                      <li id='about'>About</li>
+                      <li id='skill'>Skills</li>
+                      <li id='project'>Projects</li>
+                      <li id='email'>Contact</li>
+                  </ul>
+            </nav>
           </div>
       </header>
-      <main>
-            <div class="intro">
-              <div class= "introcontent">
-              </div>
-              <div class= "introcontent">
-                  <h2>Educator, Artist, Developer</h2>
-                  <p>Believer in knowledge &dash; Explorer of unknown &dash; Builder of value</p>
-              </div>
-              <div class= "introcontent">
-              </div>
-            </div>
-
-            <div class="aboutme">
-                  <h2 class="metitle">About Me</h2>
-                  <div class="meinfo">
-                    <div class= "space">
-                    </div>
-                    <div class= "facts">
-                      <hr />
-                          <p> Who &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Jennifer Yien </p>
-                          <p> What &nbsp;&nbsp;&nbsp;&nbsp;#Web Developer </p>
-                          <p> Where &nbsp;&nbsp;#New York, NY </p>
-                          <p> When &nbsp;&nbsp;&nbsp;#Present </p>
-                          <p> Why &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Desire to Learn and Build </p>
-                      <hr />
-                    </div>
-                    <div class= "facts profileimage">
-                    </div>
-                    <div class= "space">
-                    </div>
-                  </div>
-            </div>
-      <div class="experience">
-        <h2> Experience</h2>
-        <h2> Skills </h2>
-        <ul>
-        <li> HTML </li>
-        <li> CSS </li>
-        <li> Javascript </li>
-        <li> jQuery </li>
-
-        </ul>
+      <div class='space'>
       </div>
-      <div class="Projects">
-        <h2> Projects</h2>
-        <ul>
-        <li> BlackJack</li>
-        <li> ?? </li>
-        <li> ??</li>
-        <li> ??</li>
-
-        </ul>
+      <div class="row intro">
+        <div id='intro'>
+          <h3>Educator, Artist, Developer</h3>
+        </div>
       </div>
-      </main> -->
+      <div class="row about">
+        <div class='space'>
+        </div>
+          <div class="profile">
+          <h4>Hi, My Name is Jenn</h4>
+          <p> I'm a full stack web developer in New York. I like to make a difference in peoples' lives, no matter where I am.</p>
+          <h4>Facts About Me</h4>
+          <p>asdfadsf</p>
+          <p>asdfadsf</p>
+          <p>asdfadsf</p>
+          <p>asdfadsf</p>
+          <p>asdfadsf</p>
+          </div>
+          <div class="profile profileimage">
+          </div>
+      </div>
+      <div class="row skill">
+        <div class='space'>
+        </div>
+          <div class="theSkills">
+            <h4>Skill Sets</h4>
+              <svg height='300'>
+                <text y= '15' fill="black">HTML</text>
+                <rect y= '25' width='100px' height='30px'/>
+                <text y= '75' fill="black">CSS</text>
+                <rect y= '85' width='100px' height='30px'/>
+                <text y= '135' fill="black">Javascript</text>
+                <rect y= '145' width='100px' height='30px'/>
+                <text y= '195' fill="black">jQuery</text>
+                <rect y= '205' width='100px' height='30px'/>
+                <text y= '255' fill="black">PostgreSQL</text>
+                <rect y= '265' width='100px' height='30px'/>
+              </svg>
+          </div>
+          <div class="theSkills">
+              <svg height='300'>
+                <text y= '15' fill="black">Ruby</text>
+                <rect y= '25' width='100px' height='30px'/>
+                <text y= '75' fill="black">Rails</text>
+                <rect y= '85' width='100px' height='30px'/>
+                <text y= '135' fill="black">Photoshop</text>
+                <rect y= '145' width='100px' height='30px'/>
+                <text y= '195' fill="black">Illustrator</text>
+                <rect y= '205' width='100px' height='30px'/>
+                <text y= '255' fill="black">Teaching?</text>
+                <rect y= '265' width='100px' height='30px'/>
+              </svg>
+          </div>
+      </div>
+      <div class="row projects">
+        <div class='space'>
+        </div>
+            <div class = ''>
+                <h4>Creations</h4>
+            </div>
+            <div class = 'myWork blackjack'>
+              <h4> Blackjack </h4>
+            </div>
+            <div class = 'myWork'>
+            </div>
+      </div>
+      <div class="row contact">
+        <div class='space'>
+        </div>
+        <div id='contact'>
+          <h4> Wanna Get In Touch? </h4>
+          <h3>Email: jenniferllwu@gmail.com</h3>
+        </div>
+        <div class='space'>
+        </div>
+      </div>
       <footer>
-        <ul>
+        <ul class="rightside">
           <li class = "copyright"> &#169; 2015</li>
           <a href="https://www.linkedin.com/pub/jennifer-yien/23/503/82b"><li class = "linkedin"></li></a>
           <a href="https://github.com/jenniferyien"><li class = "github"></li></a>
