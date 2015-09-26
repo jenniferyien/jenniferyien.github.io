@@ -6,79 +6,128 @@
       <link rel = "stylesheet" href ="/style.css">
       <script language="javascript" type="text/javascript" src='/jquery-2.1.4.js'></script>
       <script language="javascript" type="text/javascript" src='/script.js'></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     </head>
     <body>
-      <header>
-        <div class='header'>
-          <h1 id='name'>jenniferYien</h1>
+      <nav class="navbar">
+
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">jenniferYien</a>
+          </div>
+
+          <div class='navigation'>
+            <ul id="nav">
+              <li id='home'><a href="#">Home</a></li>
+              <li id='about'><a href="#">About</a></li>
+              <li id='projects'><a href="#">Projects</a></li>
+              <li id='contact'><a href="#">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <div class=intro>
+        <div class="center">
+          <p> The name is <strong>Jennifer Yien</strong>
+            and I'm an <strong>Educator</strong>, <strong>Artist</strong>, &</p>
+          <h1>Full Stack Web Developer</h1>
         </div>
-        <div class= 'header'>
-          <nav>
-                  <ul>
-                      <li id='about'>About</li>
-                      <li id='skill'>Skills</li>
-                      <li id='project'>Projects</li>
-                      <li id='email'>Contact</li>
+      </div>
+
+      <div class="about">
+        <div class="aboutcenter">
+            <h2>&#60;About&#62;</h2>
+            <div class='thesection content'>
+                <div class='aboutinfo profileimage'>
+
+                </div>
+                <div class='aboutinfo theFacts'>
+                  <h3>Fun Facts</h3>
+                  <ul id='facts'>
+                    <li>3 half marathons in 1.5 months</li>
+                    <li>Helo</li>
+                    <li>Helo</li>
+                    <li>Helo</li>
+                    <li>Fenced in High School & College </li>
                   </ul>
-            </nav>
-          </div>
-      </header>
-      <div class='space'>
-      </div>
-      <div class="row intro">
-        <div id='intro'>
-          <h3>Educator, Artist, Developer</h3>
+                </div>
+
+            </div>
+            <div class='thesection skills'>
+                <div class="theSkills">
+                  <h3>Novice</h3>
+                    <svg height='200'>
+
+                      <rect y= '25' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '25' width='70px' height='30px' fill="#B1103E"/>
+                      <text x="10" y= '45' fill="#e9ece5">API/AJAX</text>
+
+                      <rect y= '85' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '85' width='90px' height='30px'fill="#B1103E"/>
+                      <text x='10' y= '105' fill="#e9ece5">QA Testing</text>
+
+                      <rect y= '145' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '145' width='35px' height='30px' fill="#B1103E"/>
+                      <text x='10' y= '165' fill="#e9ece5">AfterEffects</text>
+                    </svg>
+                </div>
+                <div class="theSkills">
+                  <h3>Intermediate</h3>
+                    <svg height='200'>
+
+                      <rect y= '25' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '25' width='110px' height='30px' fill="#B1103E"/>
+                      <text x="10" y= '45' fill="#e9ece5">Javascript/jQuery</text>
+
+                      <rect y= '85' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '85' width='120px' height='30px'fill="#B1103E"/>
+                      <text x='10' y= '105' fill="#e9ece5">Ruby/Rails</text>
+
+                      <rect y= '145' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '145' width='115px' height='30px' fill="#B1103E"/>
+                      <text x='10' y= '165' fill="#e9ece5">PostgreSQL</text>
+
+                    </svg>
+                </div>
+                <div class="theSkills">
+                  <h3>Advanced</h3>
+                    <svg height='200'>
+
+                      <rect y= '25' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '25' width='150px' height='30px' fill="#B1103E"/>
+                      <text x="10" y= '45' fill="#e9ece5">HTML/CSS</text>
+
+                      <rect y= '85' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '85' width='160px' height='30px'fill="#B1103E"/>
+                      <text x='10' y= '105' fill="#e9ece5">Photoshop</text>
+
+
+                      <rect y= '145' width='200px' height='30px' fill="#3b3a36"/>
+                      <rect y= '145' width='170px' height='30px' fill="#B1103E"/>
+                      <text x='10' y= '165' fill="#e9ece5">Illustrator</text>
+
+                    </svg>
+                </div>
+            </div>
         </div>
+
       </div>
-      <div class="row about">
-        <div class='space'>
-        </div>
-          <div class="profile">
-          <h4>Hi, My Name is Jenn</h4>
-          <p> I'm a full stack web developer in New York. I like to make a difference in peoples' lives, no matter where I am.</p>
-          <h4>Facts About Me</h4>
-          <p>asdfadsf</p>
-          <p>asdfadsf</p>
-          <p>asdfadsf</p>
-          <p>asdfadsf</p>
-          <p>asdfadsf</p>
-          </div>
-          <div class="profile profileimage">
-          </div>
+
+
+
+      <div class="projects">
+          <h2>&#60;Projects&#62;</h2>
+          <div class='one-third'></div>
+          <div class='three-fourth'></div>
       </div>
-      <div class="row skill">
-        <div class='space'>
-        </div>
-          <div class="theSkills">
-            <h4>Skill Sets</h4>
-              <svg height='300'>
-                <text y= '15' fill="black">HTML</text>
-                <rect y= '25' width='100px' height='30px'/>
-                <text y= '75' fill="black">CSS</text>
-                <rect y= '85' width='100px' height='30px'/>
-                <text y= '135' fill="black">Javascript</text>
-                <rect y= '145' width='100px' height='30px'/>
-                <text y= '195' fill="black">jQuery</text>
-                <rect y= '205' width='100px' height='30px'/>
-                <text y= '255' fill="black">PostgreSQL</text>
-                <rect y= '265' width='100px' height='30px'/>
-              </svg>
-          </div>
-          <div class="theSkills">
-              <svg height='300'>
-                <text y= '15' fill="black">Ruby</text>
-                <rect y= '25' width='100px' height='30px'/>
-                <text y= '75' fill="black">Rails</text>
-                <rect y= '85' width='100px' height='30px'/>
-                <text y= '135' fill="black">Photoshop</text>
-                <rect y= '145' width='100px' height='30px'/>
-                <text y= '195' fill="black">Illustrator</text>
-                <rect y= '205' width='100px' height='30px'/>
-                <text y= '255' fill="black">Teaching?</text>
-                <rect y= '265' width='100px' height='30px'/>
-              </svg>
-          </div>
+
+      <div class="contact">
+        <p>contact</p>
+      </div>
+
+      <!--
+
+
       </div>
       <div class="row projects">
         <div class='space'>
@@ -108,6 +157,6 @@
           <a href="https://www.linkedin.com/pub/jennifer-yien/23/503/82b"><li class = "linkedin"></li></a>
           <a href="https://github.com/jenniferyien"><li class = "github"></li></a>
         </ul>
-      </footer>
+      </footer> -->
     </body>
 </html>

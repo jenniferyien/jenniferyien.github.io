@@ -1,44 +1,51 @@
 $(function(){
 
+
+  $("#nav").addClass("js");
+  $("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
+  $("#menu").click(function(){
+	     $("#nav").toggle();
+  });
+  $(window).resize(function(){
+    	if(window.innerWidth > 768) {
+    		$("#nav").removeAttr("style");
+    	}
+  });
+
+
   // Click Function to scroll down to particular div section
-  $("#about").click(function() {
+  $("#home").click(function() {
     $('html,body').animate({
-        scrollTop: $(".row.about").offset().top
+        scrollTop: $(".intro").offset().top - 50
       }, 'slow');
   // adjustment to window size
     windowHeight = $(window).innerHeight();
-    $('.row.about').css('min-height', windowHeight);
+    $('.intro').css('min-height', windowHeight);
   });
 
-  $("#skill").click(function() {
+  $("#about").click(function() {
     $('html,body').animate({
-        scrollTop: $(".row.skill").offset().top
+        scrollTop: $(".about").offset().top - 50
       },'slow');
     windowHeight = $(window).innerHeight();
-    $('.row.skill').css('min-height', windowHeight);
+    $('.about').css('min-height', windowHeight);
   });
 
-  $("#project").click(function() {
+  $("#projects").click(function() {
     $('html,body').animate({
-        scrollTop: $(".row.projects").offset().top
+        scrollTop: $(".projects").offset().top - 50
       },'slow');
     windowHeight = $(window).innerHeight();
-    $('.row.projects').css('min-height', windowHeight);
+    $('.projects').css('min-height', windowHeight);
   });
 
-  $("#email").click(function() {
+  $("#contact").click(function() {
     $('html,body').animate({
-        scrollTop: $(".row.contact").offset().top
+        scrollTop: $(".contact").offset().top - 50
       },'slow');
     windowHeight = $(window).innerHeight();
-    $('.row.contact').css('min-height', windowHeight);
+    $('.contact').css('min-height', windowHeight);
   });
 
-  $("#name").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".row.intro").offset().top
-      },'slow');
-    windowHeight = $(window).innerHeight();
-    $('.row.intro').css('min-height', windowHeight);
-  });
+  
 });
