@@ -180,6 +180,9 @@ strong {
   border: 1px solid grey;
   margin: 2%;
 }
+.regularbox a{
+	text-decoration: none;
+}
 .three-fourth {
   width: 66%;
   height: 500px;
@@ -188,6 +191,9 @@ strong {
 .boxsection {
   height: 33%;
   width: 100%;
+}
+.boxsection a{
+  text-decoration: none;
 }
 .squarebox {
   width:45%;
