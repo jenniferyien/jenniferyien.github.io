@@ -158,6 +158,7 @@ strong {
 /*PROJECT SECTION*/
 .projects {
   min-height:100vh;
+  height: 625px;
   background:#b3c2bf;
   color:#e9ece5;
 }
@@ -176,7 +177,7 @@ strong {
 .regularbox {
   width: 94.5%;
   height: 47.5%;
-  border: 1px solid black;
+  border: 1px solid grey;
   margin: 2%;
 }
 .three-fourth {
@@ -191,14 +192,12 @@ strong {
 .squarebox {
   width:45%;
   height: 90%;
-  border: 1px solid black;
   float: left;
   margin: 1% 2%;
 }
 .bigbox {
   width: 94%;
   height: 90%;
-  border: 1px solid black;
   margin: 1% 2%;
   float: left;
 }
@@ -210,10 +209,10 @@ strong {
 }
 .codiki:hover p {
   display: block;
+  opacity: 0.6;
 }
 .codiki:hover {
   background-image: none;
-  opacity: 0.6;
 }
 .codiki p{
   margin: 7%;
@@ -234,12 +233,118 @@ span {
 }
 .blackjack:hover p {
   display: block;
+  opacity: 0.6;
 }
 .blackjack:hover {
   background-image: none;
-  opacity: 0.6;
 }
 .blackjack p{
+  margin: 7%;
+  margin-top: 12%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+
+.keytranslator {
+  background-image: url("/images/keytranslator.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.keytranslator:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.keytranslator:hover {
+  background-image: none;
+}
+.keytranslator p{
+  margin: 7%;
+  margin-top: 12%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+
+.cheese {
+  background-image: url("/images/cheese.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.cheese:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.cheese:hover {
+  background-image: none;
+}
+.cheese p{
+  margin: 7%;
+  margin-top: 7%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+
+/*TobeDetermine projects*/
+.final {
+  background-image: url("/images/placeholder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.final:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.final:hover {
+  background-image: none;
+}
+.final p{
+  margin: 7%;
+  margin-top: 25%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+
+.group {
+  background-image: url("/images/placeholder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.group:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.group:hover {
+  background-image: none;
+}
+.group p{
+  margin: 7%;
+  margin-top: 25%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+
+.homework {
+  background-image: url("/images/placeholder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.homework:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.homework:hover {
+  background-image: none;
+}
+.homework p{
   margin: 7%;
   margin-top: 12%;
   text-align: center;
@@ -252,6 +357,7 @@ span {
 /*Contact Section*/
 .contact {
   min-height:100vh;
+  height: 625px;
   background:#c0dfd9;
   color:#e9ece5;
 }
