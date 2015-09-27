@@ -6,7 +6,9 @@
 		padding: 0;
     font-family: 'Quattrocento', sans-serif;
 	}
-
+body {
+  background-color: #e9ece5;
+}
 /*Header logo*/
 .navbar-header {
   margin-top: 0.5%;
@@ -170,25 +172,155 @@ strong {
   width: 33%;
   height: 500px;
   float: left;
+}
+.regularbox {
+  width: 94.5%;
+  height: 47.5%;
   border: 1px solid black;
+  margin: 2%;
 }
 .three-fourth {
   width: 66%;
   height: 500px;
   float: left;
+}
+.boxsection {
+  height: 33%;
+  width: 100%;
+}
+.squarebox {
+  width:45%;
+  height: 90%;
   border: 1px solid black;
+  float: left;
+  margin: 1% 2%;
+}
+.bigbox {
+  width: 94%;
+  height: 90%;
+  border: 1px solid black;
+  margin: 1% 2%;
+  float: left;
+}
+.codiki {
+  background-image: url("/images/codiki.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.codiki:hover p {
+  display: block;
+}
+.codiki:hover {
+  background-image: none;
+  opacity: 0.6;
+}
+.codiki p{
+  margin: 7%;
+  margin-top: 12%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+span {
+  font-family: 'Oswald', serif;
+}
+
+.blackjack {
+  background-image: url("/images/Blackjack.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.blackjack:hover p {
+  display: block;
+}
+.blackjack:hover {
+  background-image: none;
+  opacity: 0.6;
+}
+.blackjack p{
+  margin: 7%;
+  margin-top: 12%;
+  text-align: center;
+  display: none;
+  color: black;
 }
 
 
 
-
-
-
+/*Contact Section*/
 .contact {
   min-height:100vh;
   background:#c0dfd9;
   color:#e9ece5;
 }
+.contact h2{
+  font-size: 30px;
+  font-family: 'Oswald', serif;
+  color: #3b3a36;
+  text-align: center;
+  padding: 2% 0;
+}
+.middle {
+  margin: 0 auto;
+  padding: 10% 0;
+  width: 90%;
+  color: #3b3a36;
+  text-align: center;
+}
+.middle p {
+  line-height: 1.5em;
+}
+.middle p a {
+  text-decoration: none;
+  font-family: 'Oswald', serif;
+  color: #3b3a36;
+}
+.middle p a:hover {
+  color: #B1103E;
+  opacity: 0.6;
+}
+.socialMedia {
+  width: 90%;
+  margin: 0 5%;
+}
+.socialMedia p {
+  float: left;
+}
+.linkedin {
+  margin-left: 15%;
+  background-image: url("/images/Linkedin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 25px;
+}
+.linkedin:hover {
+  opacity: 0.6;
+}
+.github {
+  margin-left: 30%;
+  background-image: url("/images/Github_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 30px;
+}
+.github:hover {
+  opacity: 0.6;
+}
+
+footer {
+  width: 90%;
+  margin: 0 5%;
+}
+footer p{
+  color: #3b3a36;
+  float: right;
+  font-size: 12px;
+}
+
 
 /*Media Queries */
   @media screen and (max-width: 1000px) {
@@ -270,6 +402,16 @@ strong {
     .theFacts {
       margin-left: 0;
     }
+    .socialMedia p {
+      float: none;
+    }
+    .github {
+      margin-left: 43%;
+    }
+    .linkedin {
+      margin-left: 42%;
+      margin-top: 3%;
+    }
 	}
 
 	@media screen and (min-width: 768px) {
@@ -287,6 +429,29 @@ strong {
     }
     .about {
       min-height:1250px;
+    }
+    .projects {
+      min-height:1400px;
+    }
+    .three-fourth {
+      width: 100%;
+      margin-top: 2%;
+    }
+    .one-third {
+      width: 100%;
+      margin: 10% 0;
+    }
+    .github {
+      height: 28px;
+    }
+    .linkedin {
+      margin-left: 43%;
+    }
+    .middle {
+      padding: 8% 0;
+    }
+    .contact {
+      min-height: 625px;
     }
   }
   @media screen and (max-width: 549px) {
@@ -306,5 +471,26 @@ strong {
     .thesection.skills{
       margin-left: 19%;
       height: auto;
+    }
+    .squarebox {
+      width:94%;
+    }
+    .one-third {
+      width: 100%;
+      margin: 0;
+    }
+    .github {
+      width: 25%;
+      margin-left: 40%;
+    }
+    .linkedin {
+      width: 25%;
+      margin-left: 39%;
+    }
+    .middle {
+      padding: 3% 0;
+    }
+    .contact {
+      min-height: 625px;
     }
   }
