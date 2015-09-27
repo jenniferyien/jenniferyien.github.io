@@ -47,5 +47,12 @@ $(function(){
     $('.contact').css('min-height', windowHeight);
   });
 
-  
+  $("#logo").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".intro").offset().top - 50
+      }, 'slow');
+    windowHeight = $(window).innerHeight();
+    $('.intro').css('min-height', windowHeight);
+  });
+
 });

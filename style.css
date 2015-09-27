@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 
 * {
 		margin: 0;
@@ -13,13 +14,18 @@ body {
 .navbar-header {
   margin-top: 0.5%;
 }
-.navbar-brand {
+.navbar-name {
   padding:4% 10%;
   font-size: 28px;
   color: #e9ece5;
   text-decoration: none;
-  font-family: 'Oswald';
+  font-family: 'Abril Fatface';
 }
+.navbar-name:hover {
+	color: #B3D9D0;
+}
+
+
 
 
 /* NavBar */
@@ -431,6 +437,7 @@ footer p{
   color: #3b3a36;
   float: right;
   font-size: 12px;
+	margin-top: 1%;
 }
 
 
