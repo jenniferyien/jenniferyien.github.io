@@ -282,6 +282,26 @@ span {
   color: black;
 }
 
+.search {
+  background-image: url("/images/searchster.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.search:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.search:hover {
+  background-image: none;
+}
+.search p{
+  margin: 7%;
+  margin-top: 7%;
+  text-align: center;
+  display: none;
+  color: black;
+}
 .cheese {
   background-image: url("/images/cheese.png");
   background-size: cover;
@@ -297,7 +317,7 @@ span {
 }
 .cheese p{
   margin: 7%;
-  margin-top: 7%;
+  margin-top: 12%;
   text-align: center;
   display: none;
   color: black;
@@ -341,27 +361,6 @@ span {
 .group p{
   margin: 7%;
   margin-top: 25%;
-  text-align: center;
-  display: none;
-  color: black;
-}
-
-.homework {
-  background-image: url("/images/placeholder.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color:  #e9ece5;
-}
-.homework:hover p {
-  display: block;
-  opacity: 0.6;
-}
-.homework:hover {
-  background-image: none;
-}
-.homework p{
-  margin: 7%;
-  margin-top: 12%;
   text-align: center;
   display: none;
   color: black;
