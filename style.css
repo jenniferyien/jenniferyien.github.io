@@ -210,12 +210,6 @@ strong {
   float: left;
   margin: 1% 2%;
 }
-.bigbox {
-  width: 94%;
-  height: 90%;
-  margin: 1% 2%;
-  float: left;
-}
 .codiki {
   background-image: url("/images/codiki.png");
   background-size: cover;
@@ -296,12 +290,34 @@ span {
   background-image: none;
 }
 .search p{
-  margin: 7%;
-  margin-top: 7%;
-  text-align: center;
-  display: none;
-  color: black;
+	margin: 7%;
+	margin-top: 12%;
+	text-align: center;
+	display: none;
+	color: black;
 }
+
+.chatbot {
+  background-image: url("/images/chatbot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.chatbot:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.chatbot:hover {
+  background-image: none;
+}
+.chatbot p{
+	margin: 7%;
+	margin-top: 12%;
+	text-align: center;
+	display: none;
+	color: black;
+}
+
 .cheese {
   background-image: url("/images/cheese.png");
   background-size: cover;
