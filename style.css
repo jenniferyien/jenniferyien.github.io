@@ -183,7 +183,7 @@ strong {
 }
 .regularbox {
   width: 94.5%;
-  height: 47.5%;
+  height: 30.5%;
   border: 1px solid grey;
   margin: 2%;
 }
@@ -352,7 +352,28 @@ span {
 }
 .group p{
   margin: 7%;
-  margin-top: 25%;
+  margin-top: 12%;
+  text-align: center;
+  display: none;
+  color: black;
+}
+
+.phaser {
+  background-image: url("/images/phaser.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  #e9ece5;
+}
+.phaser:hover p {
+  display: block;
+  opacity: 0.6;
+}
+.phaser:hover {
+  background-image: none;
+}
+.phaser p{
+  margin: 7%;
+  margin-top: 12%;
   text-align: center;
   display: none;
   color: black;
@@ -374,7 +395,7 @@ span {
 }
 .final p{
   margin: 7%;
-  margin-top: 25%;
+  margin-top: 12%;
   text-align: center;
   display: none;
   color: black;
@@ -609,6 +630,9 @@ footer p{
     }
     .squarebox {
       width:94%;
+    }
+		.projects {
+      min-height:1550px;
     }
     .one-third {
       width: 100%;
