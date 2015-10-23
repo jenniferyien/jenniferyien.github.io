@@ -7,9 +7,11 @@
 		padding: 0;
     font-family: 'Quattrocento', sans-serif;
 	}
+
 body {
   background-color: #e9ece5;
 }
+
 /*Header logo*/
 .navbar-header {
   margin-top: 0.5%;
