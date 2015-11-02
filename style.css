@@ -381,21 +381,20 @@ span {
   color: black;
 }
 
-/*TobeDetermine projects*/
-.final {
-  background-image: url("/images/placeholder.png");
+.podge{
+  background-image: url("/images/podge.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color:  #e9ece5;
 }
-.final:hover p {
+.podge:hover p {
   display: block;
   opacity: 0.6;
 }
-.final:hover {
+.podge:hover {
   background-image: none;
 }
-.final p{
+.podge p{
   margin: 7%;
   margin-top: 12%;
   text-align: center;
