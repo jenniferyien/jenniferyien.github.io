@@ -8,6 +8,8 @@ Get to Know Me
 What are my skills?
 What projects have I done?
 My thoughts
-Connect with Me
+How to connect with me?
 
-This is a website to learn about me
+My personal portfolio website as a Full Stack Web Developer.
+
+If you have any questions feel free to [email me](<jenniferllwu@gmail.com>).
