@@ -141,7 +141,7 @@ strong {
   line-height: 2em;
 }
 .profileimage {
-  background-image: url("/images/mypicture.png");
+  background-image: url("./images/photo.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 225px;
