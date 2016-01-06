@@ -1,11 +1,13 @@
 $(function(){
 
-
+  // Navbar change
   $("#nav").addClass("js");
   $("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
   $("#menu").click(function(){
 	     $("#nav").toggle();
   });
+
+  // resize of window
   $(window).resize(function(){
     	if(window.innerWidth > 768) {
     		$("#nav").removeAttr("style");
@@ -23,6 +25,7 @@ $(function(){
     $('.intro').css('min-height', windowHeight);
   });
 
+  // scroll effect
   $("#about").click(function() {
     $('html,body').animate({
         scrollTop: $(".about").offset().top - 50
@@ -47,6 +50,7 @@ $(function(){
     $('.contact').css('min-height', windowHeight);
   });
 
+  // logo animation
   $("#logo").click(function() {
     $('html,body').animate({
         scrollTop: $(".intro").offset().top - 50
