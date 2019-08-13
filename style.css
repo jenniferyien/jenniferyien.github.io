@@ -1,29 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 
-h1, h3, a {
-	font-family: 'Quicksand', sans-serif;
-}
-p {
-	font-family: 'EB Garamond', serif;
-}
-.github a {
-	background-image: url("./images/github-icon.png");
-}
-.linkedin a {
-	background-image: url("./images/linkedin-icon.png");
-}
-.email a {
-	background-image: url("./images/email-icon.png");
-}
-.github a:hover, .linkedin a:hover, .email a:hover, li a:hover {
+html { background: #e5dace; }
+
+h1, h3, a { font-family: 'Quicksand', sans-serif; }
+h1, h3, p { color: #3F3931; }
+p { font-family: 'EB Garamond', serif; }
+
+.github a { background-image: url("./images/github-icon.png"); }
+.linkedin a { background-image: url("./images/linkedin-icon.png"); }
+.email a { background-image: url("./images/email-icon.png"); }
+.github a:hover, .linkedin a:hover, .email a:hover, li a:hover { 
 	filter: brightness(0.5);
 }
 
 .navbar-name {
 	margin: 0;
   font-size: 28px;
-  color: #e9ece5;
+  color: #b2b2a2;
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
 	cursor: default;
@@ -64,22 +58,28 @@ li a {
 	text-align: center;
 	font-size: 15px;
 	text-decoration: none;
-	color: #e9ece5;
+	color: #b2b2a2;
 	text-transform: uppercase;
+}
+.section {
+	padding: 50px 25px;
+	text-align: center;
+	cursor: default;
 }
 
 .hero-section {
-	background: linear-gradient(rgba(0,0,0, 0.9), rgba(30,30,30,0.8)), url("./images/green-powder.jpg");
+	background: linear-gradient(rgba(0,0,0, 0.2), rgba(231,186,160,0.8)), url("./images/jenn.jpg");
 	background-size: cover;
+	background-position-y: 50%; 
 }
 .hero-section .mobile-visible {
 	display: none;
 }
 .hero-title {
 	height: 500px;
-	color: #fff;
+	color: #3F3931;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
@@ -95,9 +95,8 @@ li a {
 }
 
 .about-section {
+	background-color: #e7bab0;
 	margin: 0;
-	padding: 50px 25px;
-	text-align: center;
 	cursor: default;
 }
 .about-section h3 {
@@ -115,12 +114,11 @@ li a {
 	font-size: 21px;
 	line-height: 32px;
 }
-
+.education-section {
+	background-color: #b2b2a2;
+}
 .contact-section {
-	background-color: #edeeef;
-	padding: 50px 25px;
-  text-align: center;
-	cursor: default;
+	background-color: #6d7973;
 }
 .contact-section h3 {
 	margin-top: 0;
@@ -132,22 +130,22 @@ li a {
 	font-style: italic;
 }
 .contact-section .btn {
-	border: 2px solid #272727;
+	border: 2px solid #3F3931;
   background-color: transparent;
   padding: 21px 34px;
-	color: #272727;
+	color: #3F3931;
 	text-transform: uppercase;
 	font-weight: bold;
 	display: inline-block;
 	text-decoration: none;
 }
 .contact-section .btn:hover {
-	background-color: #272727;
+	background-color: #3F3931;
 	color: #fff;
 }
 
 footer {
-	background-color: #26262a;
+	background-color: #3F3931;
 	color: #ddd;
 	padding: 15px 25px;
 	display: flex;
@@ -180,7 +178,7 @@ footer a {
 		text-align: center;
     float: right;
     position: relative;
-    color: #e9ece5;
+    color: #b2b2a2;
 		cursor: pointer;
 	}
 	#nav.js {
