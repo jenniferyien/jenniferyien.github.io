@@ -10,7 +10,7 @@ p { font-family: 'EB Garamond', serif; }
 .github a { background-image: url("./images/github-icon.png"); }
 .linkedin a { background-image: url("./images/linkedin-icon.png"); }
 .email a { background-image: url("./images/email-icon.png"); }
-.github a:hover, .linkedin a:hover, .email a:hover, li a:hover { 
+.github a:hover, .linkedin a:hover, .email a:hover, li a:hover {
 	filter: brightness(0.5);
 }
 
@@ -70,7 +70,7 @@ li a {
 .hero-section {
 	background: linear-gradient(rgba(0,0,0, 0.2), rgba(231,186,160,0.8)), url("./images/jenn.jpg");
 	background-size: cover;
-	background-position-y: 50%; 
+	background-position-y: 50%;
 }
 .hero-section .mobile-visible {
 	display: none;
@@ -114,8 +114,49 @@ li a {
 	font-size: 21px;
 	line-height: 32px;
 }
-.education-section {
+.experience h3 {
+	color: #6d7973;
+}
+
+.education {
 	background-color: #b2b2a2;
+	text-align: center;
+}
+.education h3 {
+	color: #e5dace;
+}
+.e-section h3 {
+	text-align: center;
+	font-size: 36px;
+}
+.e-section h3 span {
+	font-style: italic;
+	font-size:18px;
+	color: #3F3931;
+}
+.e-section li {
+	border-bottom: 1px solid #6d7973;
+	margin: 0 10%;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	font-size: 21px;
+}
+.e-section li p {
+	width: 75%;
+	color: #3F3931;
+}
+.e-section p span {
+	color: #6d7973;
+}
+.e-section a {
+	margin-top: 5%;
+}
+.dates {
+	display: flex;
+	justify-content: flex-end;
+	color: #6d7973 !important;
+	font-size: 18px;
 }
 .contact-section {
 	background-color: #6d7973;
@@ -129,7 +170,7 @@ li a {
 	display: block;
 	font-style: italic;
 }
-.contact-section .btn {
+.btn {
 	border: 2px solid #3F3931;
   background-color: transparent;
   padding: 21px 34px;
@@ -139,7 +180,7 @@ li a {
 	display: inline-block;
 	text-decoration: none;
 }
-.contact-section .btn:hover {
+.btn:hover {
 	background-color: #3F3931;
 	color: #fff;
 }
@@ -155,6 +196,7 @@ footer {
 footer p {
 	width: 100%;
 	font-size: 14px;
+	color: #e5dace;
 }
 footer .footer-nav {
 	width: 100%;
