@@ -128,6 +128,7 @@ li a {
 .e-section h3 {
 	text-align: center;
 	font-size: 36px;
+	margin-top: 0;
 }
 .e-section h3 span {
 	font-style: italic;
@@ -161,14 +162,11 @@ li a {
 .contact-section {
 	background-color: #6d7973;
 }
-.contact-section h3 {
+.contact-section a {
 	margin-top: 0;
-	font-size: 24px;
-	line-height: 36px;
 }
-.contact-section h3 span {
-	display: block;
-	font-style: italic;
+.contact-section p {
+	font-size: 21px;
 }
 .btn {
 	border: 2px solid #3F3931;
