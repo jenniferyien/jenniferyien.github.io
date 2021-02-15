@@ -98,6 +98,7 @@ span:nth-child(7n+5) {
 	width: 55%;
   padding-right: 25%;
 }
+.about-me a { color: #000; }
 .experience { width: 45%; }
 
 .company { font-weight: bold; }
