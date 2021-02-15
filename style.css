@@ -24,6 +24,7 @@ span {
 	height: 100%;
 	position: absolute;
 	left: 0%;
+	z-index: -1
 }
 @-webkit-keyframes boba {
 	0% {
@@ -61,7 +62,6 @@ span {
 	background: url("./images/boba.png");
 	background-size: contain;
 	animation: boba 20s infinite linear;
-	z-index: 1;
 }
 
 span:nth-child(2n+1) {
@@ -99,6 +99,7 @@ span:nth-child(7n+5) {
   padding-right: 25%;
 }
 .about-me a { color: #000; }
+.about-me a:hover, .about-me a:visited { color: #89BD9E; };
 .experience { width: 45%; }
 
 .company { font-weight: bold; }
