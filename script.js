@@ -48,5 +48,13 @@ $(function(){
       "</p><p>" + experience.title + "<p><p class='date'>" +
       experience.date + "</div>"
     )
-  })
+  });
+
+  const arrayNums = Array.from({length: 10}, (x, i) => i);
+  arrayNums.forEach((num) => {
+    $(".loader").append("<span></span>")
+    if (num % 3 || num % 5) {
+      $(".loader2").append("<span></span>")
+    }
+  });
 });

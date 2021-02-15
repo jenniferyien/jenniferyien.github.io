@@ -10,6 +10,75 @@ p, a {
 	font-size: 18px;
 }
 body { margin: 10% 10% 0; };
+a { color: #000; }
+a:hover, a:visited { color: #89BD9E; };
+
+/* Boba animation */
+span {
+	width: 100px;
+	height: 100px;
+}
+.container {
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+}
+@-webkit-keyframes boba {
+	0% {
+		opacity: 0;
+		transform: translate(0, 0px) rotateZ(0deg);
+	}
+	25% {
+		opacity: .1;
+		transform: translate(50px, 450px) rotateZ(90deg);
+	}
+	50% {
+		opacity: .1;
+		transform: translate(100px, 900px) rotateZ(180deg);
+	}
+	75% {
+		opacity: .1;
+		transform: translate(150px, 1350px) rotateZ(270deg);
+	}
+	100% {
+		opacity: 0;
+		transform: translate(200px, 1800px) rotateZ(360deg);
+	}
+}
+
+.loader2 {
+	transform: rotateZ(315deg);
+	transform-origin: bottom left;
+}
+
+span {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: -280px 50px 54px -34px;
+	background: url("./images/boba.png");
+	background-size: contain;
+	animation: boba 20s infinite linear;
+	z-index: 1;
+}
+
+span:nth-child(2n+1) {
+	animation-delay: 1s;
+	transform: rotateZ(180deg)
+}
+span:nth-child(3n+2) {
+	animation-delay: 5s;
+	transform: rotateZ(90deg)
+}
+span:nth-child(4n+1) {
+	animation-delay: 10s;
+	transform: rotateZ(270deg)
+}
+span:nth-child(7n+5) {
+	animation-delay: 15s;
+}
 
 /* Header */
 .header h1 {
@@ -79,6 +148,7 @@ footer p {
 footer a {
 	margin: 8px;
 	text-decoration: none;
+	color: #000;
 }
 
 /* Mobile */
