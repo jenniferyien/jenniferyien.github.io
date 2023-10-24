@@ -2,13 +2,18 @@ $(function(){
   const experienceList = [
     {
       company: "Justworks",
+      title: "Engineering Manager",
+      date: "August 2020 - present"
+    },
+    {
+      company: "Justworks",
       title: "Software Engineer",
-      date: "January 2020 - present"
+      date: "January 2020 - August 2022"
     },
     {
       company: "WeWork",
       title: "Software Engineer",
-      date: "Mar 2018 - December 2019"
+      date: "March 2018 - December 2019"
     },
     {
       company: "WeddingWire",
